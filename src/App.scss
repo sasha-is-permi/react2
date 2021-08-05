@@ -1,20 +1,7 @@
-.AppButton {
-  padding: 8px 10px;
-  border: 1px solid #ccc;
-  font-weight: bold;
-  text-transform: uppercase;
-
-  &:focus, &:active {
-    outline: none;
-  }
-
-  &:hover {
-    background: #f0ff1e;
-  }
-}
 
 
 .nav {
+
   ul {
     display: flex;
     justify-content: center;
@@ -24,11 +11,21 @@
     padding: 20px;
 
     li {
+      border: 1px #0c0 solid ;
       margin-right: 15px;
+      padding:10px;
+       
+      a{
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
 
       a.active, a.wfm-active {
         font-weight: bold;
         color: red;
+        cursor:pointer;
+
       }
     }
   }

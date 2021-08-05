@@ -21,7 +21,10 @@ class App extends Component{
          <nav className="nav">
              <ul>
               <li>
-               <NavLink to="/"> Главная </NavLink>
+               <NavLink to="/"
+               exact
+               activeClassName={'wfm-active'} // используем не стандартный класс active для активного элемента
+               > Главная </NavLink>
               </li>
 
               <li>
@@ -36,6 +39,7 @@ class App extends Component{
 
           
           {/* При данном пути- переходим в другой компонент */}
+          
           <Route path="/" exact component={Main} />
            
           <Route path="/news" component={News} />

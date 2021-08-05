@@ -1,3 +1,18 @@
 .News{
-   text-align:center;
+   width:60vw; // 60% - ширина блока news
+   font-size: 20px;
+   margin: 0 auto; // располпагаем этот блок по центру
+}
+
+
+.divBirch1{
+   width:60vw;   // 60% - ширина блока где будет картинка
+   display:flex;
+   justify-content: center;  // центрируем картинку внутри блока
+}
+
+
+.birch{
+   width:300px;  // ширина картинки
+   max-height:600px;
 }
