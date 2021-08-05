@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { NavLink, Route } from 'react-router-dom';
+import { NavLink, Route, Switch } from 'react-router-dom';
 import './App.scss';
 
 import Main from './Main/Main'
@@ -40,14 +40,17 @@ class App extends Component{
           
           {/* При данном пути- переходим в другой компонент */}
           
-          <Route path="/" exact component={Main} />
+          <Switch>
+
+             <Route path="/" exact component={Main} />
            
-          <Route path="/news" component={News} />
+             <Route path="/news" component={News} />
 
-          <Route path="/profile" component={Profile} />
+             <Route path="/profile" component={Profile} />
+ 
+             <Route render={() => <h1 style={{color: 'red', textAlign: 'center'}}>Страница не найдена</h1>} /> {/* если введен неправильный адрес страницы */}
 
-          <Route render={() => <h1 style={{color: 'red', textAlign: 'center'}}>Страница не найдена</h1>} /> {/* если введен неправильный адрес страницы */}
-
+          </Switch>
 
            </div>  
          </React.Fragment> 
