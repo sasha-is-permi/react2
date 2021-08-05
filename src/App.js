@@ -46,6 +46,8 @@ class App extends Component{
 
           <Route path="/profile" component={Profile} />
 
+          <Route render={() => <h1 style={{color: 'red', textAlign: 'center'}}>Страница не найдена</h1>} /> {/* если введен неправильный адрес страницы */}
+
 
            </div>  
          </React.Fragment> 
