@@ -2,7 +2,7 @@
 //Восстановить каталог node_modules
 //Комманда npm install
 
-https://github.com/sasha-is-permi/vue.js
+https://github.com/sasha-is-permi/react2
 
 // надо представиться если не представлялись. Один раз после создания проекта
 // Информация записывается в .git/config
@@ -33,10 +33,10 @@ git push
 
 Если с компьютера на работе а делали дома  (в чистую папку надо скопировать):
 Переходим в папку рабочую vue.js
-git clone https://github.com/sasha-is-permi/vue.js vue-project
-// Файлы копируются с респозитория в папку vue-project
+git clone  https://github.com/sasha-is-permi/react2 react2
+// Файлы копируются с респозитория в папку react2
 
-// Затем зайти в файл проекта git vue-project
+// Затем зайти в файл проекта git react2
 
 // Если проект уже есть- прописанны все пути в нем до github- 
 // просто:

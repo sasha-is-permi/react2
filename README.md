@@ -1,3 +1,5 @@
+Задание
+
 Реализовать приложение, которое умеет показывать следующие страницы:
 
 / - главная
@@ -6,7 +8,7 @@
 /profile - страница с произвольным текстом, недоступная без авторизации
 На сайте, в шапке или подвале реализовать ссылки:
 
-На главную (/)
+Главная (/)
 Новости (/news)
 Профиль (/profile)
 Если пользователь кликает на страницу “профиля” и он не “авторизован” - перекидывать на страницу /login
@@ -27,4 +29,44 @@ password: 12345
 Оформление (дизайн) — не важно. Сделайте, чтобы можно было комфортно смотреть пример в браузере.
 
 
+
+
+
+Выполнение
+
+
+Создана папка на githab для проекта:
 https://github.com/sasha-is-permi/react2
+
+
+create-react-app project2 
+
+npm install --save react-router-dom
+
+ react-router-dom - hoc-компонент, который оборачивает наш компонент для использования router 
+ <BrowserRouter>
+
+ В index.js:
+
+
+ import {BrowserRouter} from 'react-router-dom'
+
+
+
+const application = (
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+)
+
+  Подключение использования sass:
+  npm install node-sass
+
+
+ReactDOM.render(application, document.getElementById('root'));
+registerServiceWorker();
+
+
+Чтобы сделать навигацию без перезагрузки страницы: 
+
+import {Route, NavLink} from 'react-router-dom'
