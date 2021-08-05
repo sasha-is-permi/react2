@@ -1,3 +1,18 @@
 .Main{
-    text-align: center;
-}
+    width:60vw; // 60% - ширина блока main
+    font-size: 20px;
+    margin: 0 auto; // располпагаем этот блок по центру
+ }
+ 
+ 
+ .divPine{
+    width:60vw;   // 60% - ширина блока где будет картинка
+    display:flex;
+    justify-content: center;  // центрируем картинку внутри блока
+ }
+ 
+ 
+ .pine{
+    width:300px;  // ширина картинки
+    max-height:600px;
+ }
