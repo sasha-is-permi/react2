@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { NavLink, Route, Switch } from 'react-router-dom';
 import './App.scss';
-import {connect} from 'react-redux' // connect- позволяет соединить app со store. работает как hoc  
+import {connect} from 'react-redux' // connect- позволяет соединить App со store. работает как hoc  
 
 import Main from './Main/Main'
 import News from './News/News'
@@ -62,9 +62,9 @@ class App extends Component{
 // Данные из state станут обычными параметрами для компонента (props)
 function mapStateToProps(state){
   return{
-  
+   
   }
 }
 
-// После вызова функции туда ложим компонент App
+// После вызова функции туда кладем компонент App
 export default connect(mapStateToProps)(App);
