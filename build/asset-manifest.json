@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b61168da.chunk.css",
+    "main.js": "/static/js/main.36103c2f.chunk.js",
+    "main.js.map": "/static/js/main.36103c2f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c131097b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c131097b.js.map",
+    "static/js/2.dc8f58ca.chunk.js": "/static/js/2.dc8f58ca.chunk.js",
+    "static/js/2.dc8f58ca.chunk.js.map": "/static/js/2.dc8f58ca.chunk.js.map",
+    "static/js/3.5dbe1002.chunk.js": "/static/js/3.5dbe1002.chunk.js",
+    "static/js/3.5dbe1002.chunk.js.map": "/static/js/3.5dbe1002.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b61168da.chunk.css.map": "/static/css/main.b61168da.chunk.css.map",
+    "static/js/2.dc8f58ca.chunk.js.LICENSE.txt": "/static/js/2.dc8f58ca.chunk.js.LICENSE.txt",
+    "static/media/birch.1fd0c99d.jpg": "/static/media/birch.1fd0c99d.jpg",
+    "static/media/pine.a11b3a01.jpg": "/static/media/pine.a11b3a01.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c131097b.js",
+    "static/js/2.dc8f58ca.chunk.js",
+    "static/css/main.b61168da.chunk.css",
+    "static/js/main.36103c2f.chunk.js"
+  ]
+}
